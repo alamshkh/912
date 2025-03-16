@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1F1F1F;
+    border-bottom: 1px solid #333333;
+}
+
+.nav-bar .nav-link {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-bar .nav-link:hover {
+    color: #BB86FC;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+.cta-button {
+    background-color: #BB86FC;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #3700B3;
+}
+
+/* Featured Section */
+.featured {
+    margin: 20px;
+}
+
+.featured h3 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+}
+
+.card {
+    display: inline-block;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    width: 150px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #333333;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #1F1F1F;
+    border-top: 1px solid #333333;
+}
