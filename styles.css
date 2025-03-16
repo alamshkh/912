@@ -12,18 +12,18 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #330000; /* Dark Red */
-    border-bottom: 1px solid #660000; /* Slightly brighter red */
+    background-color: #003300; /* Dark Green */
+    border-bottom: 1px solid #006600; /* Brighter Green */
 }
 
 .nav-bar .nav-link {
-    color: #FF0000; /* Bright Red */
+    color: #00FF00; /* Bright Green */
     text-decoration: none;
     margin: 0 10px;
 }
 
 .nav-bar .nav-link:hover {
-    color: #FF5555; /* Lighter Red */
+    color: #00CC00; /* Slightly darker Green */
 }
 
 /* Hero Section */
@@ -33,8 +33,8 @@ body {
 }
 
 .cta-button {
-    background-color: #FF0000; /* Bright Red */
-    color: #FFFFFF;
+    background-color: #00FF00; /* Bright Green */
+    color: #000000; /* Black text */
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -42,7 +42,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #990000; /* Darker Red */
+    background-color: #009900; /* Darker Green */
 }
 
 /* Featured Section */
@@ -51,30 +51,30 @@ body {
 }
 
 .featured h3 {
-    border-bottom: 2px solid #660000; /* Slightly brighter red */
+    border-bottom: 2px solid #006600; /* Brighter Green */
     padding-bottom: 5px;
 }
 
 .card {
     display: inline-block;
-    background-color: #330000; /* Dark Red */
+    background-color: #003300; /* Dark Green */
     color: #FFFFFF;
     margin: 10px;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid #660000; /* Slightly brighter red */
+    border: 1px solid #006600; /* Brighter Green */
     width: 150px;
     text-align: center;
 }
 
 .card:hover {
-    background-color: #660000; /* Slightly brighter red */
+    background-color: #006600; /* Brighter Green */
 }
 
 /* Footer Styling */
 .footer {
     text-align: center;
     padding: 10px 20px;
-    background-color: #330000; /* Dark Red */
-    border-top: 1px solid #660000; /* Slightly brighter red */
+    background-color: #003300; /* Dark Green */
+    border-top: 1px solid #006600; /* Brighter Green */
 }
